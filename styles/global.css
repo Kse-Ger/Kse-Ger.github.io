@@ -1,70 +1,76 @@
 @font-face {
-    font-family: Coolvetica;
-    src: url(./coolvetica/coolvetica\ rg.otf);
+  font-family: Coolvetica;
+  src: url(./coolvetica/coolvetica\ rg.otf);
 }
 
 :root {
-    --white: #ffffff;
-    --grey: #e5e5e5;
-    --yellow: #fca311;
-    --dark-blue: #14213d;
-    --black: #000000;
+  --white: #ffffff;
+  --grey: #e5e5e5;
+  --yellow: #fca311;
+  --dark-blue: #14213d;
+  --black: #000000;
 }
 
 html {
-    font-family: Coolvetica;
-    color: var(--white);
-    font-size: 1rem;
+  font-family: Coolvetica;
+  color: var(--white);
+  font-size: 1rem;
 }
 
 nav {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    width: 13rem;
-    background-color: var(--dark-blue);
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  width: 13rem;
+  background-color: var(--dark-blue);
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .width-10 {
-    width: 10rem;
+  width: 10rem;
 }
 
 .icon {
-    width: 1.5rem;
-    color: var(--white);
+  width: 1.5rem;
+  color: var(--white);
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .margin-y-0 {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .logo {
-    margin-bottom: 0.2rem;
-    margin-top: 0;
-    color: var(--yellow);
-    text-shadow: -4px -1px var(--grey);
+  margin-bottom: 0.2rem;
+  margin-top: 0;
+  color: var(--yellow);
+  text-shadow: -4px -1px var(--grey);
 }
