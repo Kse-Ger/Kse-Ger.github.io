@@ -5,7 +5,10 @@ const Form = () => {
       let email = document.getElementById("email").value;
       let subject = document.getElementById("subject").value;
       let msg = document.getElementById("msg").value;
-      console.log("name " + name);
+      console.log(name + " " + email + " " + subject + " " + msg);
+      let link = "mailto:kseniagerasimcuk96@gmail.com?subject=" + encodeURIComponent(subject) + "&body=Name:%20" + encodeURIComponent(name+". ") + encodeURIComponent(msg);
+      console.log(link);
+      window.location.href = link;
     }
   };
 
