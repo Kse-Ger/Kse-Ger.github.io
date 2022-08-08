@@ -13,18 +13,31 @@ const Card = () => {
   };
 
   return (
-    <div className="grid grid-3 margin-r-3">
-      <div className="card flex">
-        <a href="https://kse-ger.github.io/Company-Home-Page/" className="width-18 height-18">
-          <img
-            id="dn"
-            src="/DN.png"
-            className="width-18 height-18 cover blur"
-            onMouseEnter={() => hover(dn)}
-            onMouseOut={() => unhover(dn)}
-          />
-        </a>
-      </div>
+    <div className="cards margin-r-3">
+      <a
+        href="https://kse-ger.github.io/Company-Home-Page/"
+        className="height-card width-card"
+      >
+        <img
+          id="dn"
+          src="/DN.png"
+          className="height-card width-card cover card"
+          onMouseEnter={() => hover(dn)}
+          onMouseOut={() => unhover(dn)}
+        />
+      </a>
+      <a
+        href="https://kse-ger.github.io/Company-Home-Page/"
+        className="height-card width-card"
+      >
+        <img
+          id="dn1"
+          src="/DN.png"
+          className="height-card width-card cover card"
+          onMouseEnter={() => hover(dn)}
+          onMouseOut={() => unhover(dn)}
+        />
+      </a>
     </div>
   );
 };

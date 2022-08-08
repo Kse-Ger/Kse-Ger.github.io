@@ -3,33 +3,29 @@ import Letters from "./letters";
 import Card from "./work-card";
 
 const Body = () => {
-  const hello = () => {
-    console.log("Hello");
-  };
-
-  const goodbye = () => {
-    console.log("goodbye");
-  };
-
   return (
-    <div className="body border-box">
-      <Letters />
+    <div className="body">
+      <div className="height-main flex column justify-evenly">
+        <div>
+          <Letters />
 
-      <div className="margin-l-3 margin-top-3">
-        <p>Front End Developer | Back End Developer</p>
-      </div>
-
-      <div className="flex justify-between margin-l-1 margin-top-5">
-        <div className="flex scroll">
-          <div className="bounce">Scroll down</div>
-          <div className="margin-top-0-5"> →</div>
+          <div className="margin-l-3 margin-top-3">
+            <p>Front End Developer | Back End Developer</p>
+          </div>
         </div>
-        <a className="contact-btn" href="#contact">
-          Contact me!
-        </a>
-        <div className="flex scroll margin-r-1">
-          <div className="bounce">Scroll down</div>
-          <div className="margin-top-0-5"> →</div>
+
+        <div className="flex justify-between margin-l-1 margin-top margin-bottom-1">
+          <div className="flex scroll">
+            <div className="bounce">Scroll down</div>
+            <div className="margin-top-0-5"> →</div>
+          </div>
+          <a className="contact-btn" href="#contact">
+            Contact me!
+          </a>
+          <div className="flex scroll margin-r-1">
+            <div className="bounce">Scroll down</div>
+            <div className="margin-top-0-5"> →</div>
+          </div>
         </div>
       </div>
 
@@ -85,7 +81,7 @@ const Body = () => {
               .
             </p>
           </div>
-          <div className="width-full">
+          <div className="width-full chart">
             <div>
               <h4 className="margin-y-0-5">Front-end</h4>
               <div className="chart-1"></div>
@@ -104,7 +100,7 @@ const Body = () => {
         <Card />
       </div>
 
-      <div id="contact" className="margin-l-3 margin-top-10">
+      <div id="contact" className="margin-l-3 margin-top-10 margin-bottom-15">
         <h1 className="background-3">Contact</h1>
         <h2>Contact</h2>
         <p className="description">

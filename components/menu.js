@@ -5,15 +5,15 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Menu = () => {
   return (
-    <nav className="flex column align-center">
-      <div className="margin-bottom-3">
-        <img src="/logo.svg" className="width-10" />
+    <div className="nav flex column align-center">
+      <div className="margin-bottom-25 flex column">
+        <img src="/logo.svg" className="width-90 margin-auto" />
         <div className="flex column text-center">
           <h1 className="logo">Ksenija</h1>
           <h4 className="margin-y-0">Full-stack Developer</h4>
         </div>
       </div>
-      <ul className="margin-bottom-3">
+      <ul className="margin-bottom-25">
         <li><a className="arrow menu-item" href="#about">About</a></li>
         <li><a className="arrow menu-item" href="#skills">My skills</a></li>
         <li><a className="arrow menu-item" href="#work">Work</a></li>
@@ -27,7 +27,7 @@ const Menu = () => {
           <FontAwesomeIcon icon={faGithub} className="icon font-2" />
         </a>
       </div>
-    </nav>
+    </div>
   );
 };
 
