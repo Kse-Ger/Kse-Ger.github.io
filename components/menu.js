@@ -14,10 +14,10 @@ const Menu = () => {
         </div>
       </div>
       <ul className="margin-bottom-25">
-        <li><a className="arrow menu-item" href="#about">About</a></li>
-        <li><a className="arrow menu-item" href="#skills">My skills</a></li>
-        <li><a className="arrow menu-item" href="#work">Work</a></li>
-        <li><a className="arrow menu-item" href="#contact">Contact</a></li>
+        <li><a className="arrow menu-item" href="/#about">About</a></li>
+        <li><a className="arrow menu-item" href="/#skills">My skills</a></li>
+        <li><a className="arrow menu-item" href="/#work">Work</a></li>
+        <li><a className="arrow menu-item" href="/#contact">Contact</a></li>
       </ul>
       <div className="flex justify-evenly width-full">
         <a href="https://www.linkedin.com/in/kgerasimcuka/" target="_blank">

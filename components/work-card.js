@@ -27,15 +27,12 @@ const Card = () => {
         />
       </a>
       <a
-        href="https://kse-ger.github.io/Company-Home-Page/"
+        href="/chart"
         className="height-card width-card"
       >
         <img
-          id="dn1"
           src="/DN.png"
           className="height-card width-card cover card"
-          onMouseEnter={() => hover(dn)}
-          onMouseOut={() => unhover(dn)}
         />
       </a>
     </div>
